@@ -22,6 +22,10 @@ Project003_835_Parsing_v3-1_MakeSQL.py
 Project003_835_Parsing_v3-2_ReadSQL.py  
 Project003_835_Test_File_Hor.txt  
 
+Typing `python Project003_835_Parsing_v3.py` from the command line will output the table in the command line  
+Typing `python Project003_835_Parsing_v3-1_MakeSQL.py` from the command line will output the table into a Sqlite3 database  
+Typing `python Project003_835_Parsing_v3-2_ReadSQL.py` from the command line will read from the Sqlite3 database
+
 Tested with:  
 python 3.6.4  
 pandas 0.22.0  

@@ -3,8 +3,7 @@
 
 The goal is to take something like this:  
 ```
-ISA****************~CLP*12345**25****~CAS*CO*45*10~CAS*PR*3*15~CLP*23456**50*****
-~CAS*CO*97*50**96*75~IEA*asdf**asdf**** 
+ISA****************~CLP*12345**25****~CAS*CO*45*10~CAS*PR*3*15~CLP*23456**50*****~CAS*CO*97*50**96*75~IEA*asdf**asdf**** 
 ```
 And extract the adjustment infomation into a table something like this:
 

@@ -3,7 +3,8 @@
 
 The goal is to take something like this:  
 ```
-ISA****************~CLP*12345**25****~CAS*CO*45*10~CAS*PR*3*15~CLP*23456**50*****~CAS*CO*97*50**96*75~IEA*asdf**asdf**** 
+ISA****************~CLP*12345**25****~CAS*CO*45*10~CAS*PR*3*15~CLP*23456**50*****
+~CAS*CO*97*50**96*75~IEA*asdf**asdf**** 
 ```
 And extract the adjustment infomation into a table something like this:
 
@@ -23,8 +24,8 @@ Project003_835_Parsing_v3-2_ReadSQL.py
 Project003_835_Test_File_Hor.txt  
 
 Typing `python Project003_835_Parsing_v3.py` from the command line will output the table in the command line  
-Typing `python Project003_835_Parsing_v3-1_MakeSQL.py` from the command line will output the table into a Sqlite3 database  
-Typing `python Project003_835_Parsing_v3-2_ReadSQL.py` from the command line will read from the Sqlite3 database
+Typing `python Project003_835_Parsing_v3-1_MakeSQL.py` from the command line will output the table into a sqlite3 database  
+Typing `python Project003_835_Parsing_v3-2_ReadSQL.py` from the command line will read from the sqlite3 database
 
 Tested with:  
 python 3.6.4  

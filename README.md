@@ -15,7 +15,7 @@ CO | 97 | 50 | 2 | 23456
 CO | 96 | 75 | 2 | 23456
 
 
-Put these four files in your active directory:
+Put these four files in your current working directory:
 
 Project003_835_Parsing_v3.py  
 Project003_835_Parsing_v3-1_MakeSQL.py  
